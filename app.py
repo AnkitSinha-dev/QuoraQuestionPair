@@ -66,4 +66,4 @@ def output():
     return render_template('output.html', result = result)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
